@@ -2,14 +2,20 @@
   "name": "AI News Digest",
   "short_name": "AI Сводка",
   "start_url": "/ai-news/",
+  "scope": "/ai-news/",
   "display": "standalone",
   "background_color": "#0f172a",
   "theme_color": "#0f172a",
   "icons": [
     {
-      "src": "data:image/svg+xml,<svg xmlns='http://w3.org' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%233b82f6'/><text x='50' y='68' font-size='55' text-anchor='middle' fill='white'>⚡</text></svg>",
+      "src": "https://githubassets.com",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://githubassets.com",
       "sizes": "512x512",
-      "type": "image/svg+xml"
+      "type": "image/png"
     }
   ]
 }
