@@ -1,0 +1,15 @@
+{
+  "name": "AI News Digest",
+  "short_name": "AI Сводка",
+  "start_url": "/ai-news/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "https://flaticon.com",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
