@@ -3,7 +3,7 @@ importScripts('https://gstatic.com');
 
 firebase.initializeApp({
   apiKey: "AIzaSyDm510z18AorLRljFsSeNO4YNPwf2n27g8",
-  authDomain: "ai-news-pwa.firebaseapp.com",
+  authDomain: "://firebaseapp.com",
   projectId: "ai-news-pwa",
   storageBucket: "ai-news-pwa.firebasestorage.app",
   messagingSenderId: "274551981454",
@@ -23,4 +23,8 @@ messaging.onBackgroundMessage((payload) => {
 self.addEventListener('notificationclick', (event) => {
   event.notification.close();
   event.waitUntil(clients.openWindow(event.notification.data.url));
+});
+
+self.addEventListener('fetch', (event) => {
+  event.respondWith(fetch(event.request));
 });
